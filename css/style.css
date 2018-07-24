@@ -257,7 +257,7 @@ p{
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 65em) {
   
     .fun-facts {
     -ms-grid-rows: (1fr)[4];
