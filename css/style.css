@@ -170,10 +170,8 @@ p{
       grid-template-rows: repeat(2, 1fr);
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  width: 50vw;
-  height: 100vh;
-    grid-gap: 6%;
     color: var(--main-white);
+    margin: auto;
 }
 
 .fun-facts .fa, .fun-facts .far {
@@ -188,7 +186,7 @@ p{
   -ms-grid-row: 1;
       grid-row: 1;
     justify-self: center;
-    padding: 15% 10% 10% 10%; 
+    padding: 10%; 
     background-image: url(/img/Square2.jpg);
     background-size: cover; 
 }
@@ -207,7 +205,7 @@ p{
   -ms-grid-row: 1;
       grid-row: 1;
      justify-self: center;
-    padding: 15% 10% 10% 10%;
+    padding: 10%;
     background-image: url(/img/Square3.jpg);
     background-size: cover;
 }
@@ -226,7 +224,7 @@ p{
   -ms-grid-row: 2;
       grid-row: 2;
      justify-self: center;
-    padding: 15% 10% 10% 10%; 
+    padding: 10%; 
     background-image: url(/img/Square4.jpg);
     background-size: cover;
 }
@@ -245,7 +243,7 @@ p{
   -ms-grid-row: 2;
       grid-row: 2;
      justify-self: center;
-    padding: 15% 10% 10% 10%; 
+    padding: 10%;
     background-image: url(/img/Square1.jpg);
     background-size: cover;
 }
@@ -257,12 +255,11 @@ p{
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 65em) {
+@media screen and (max-width: 55em) {
   
     .fun-facts {
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
-      height: 250vh;
   }
     .grid-1 {
     -ms-grid-column: 1;
@@ -292,20 +289,12 @@ p{
     -ms-grid-row: 4;
         grid-row: 4;
   }
-    .profile .container {
-        padding: 0%;
-    }
-    
-    
 }
 
 .callout {
-    position: relative;
-  width: 105%;
-    height: 105%;
-
+      width: 68%;
+    height: 90%;
 }
-
 /*End of building block*/
 
 .fun-facts li  {
