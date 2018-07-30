@@ -163,139 +163,94 @@ p{
 
  /*Building block by Christine Siu: https://foundation.zurb.com/building-blocks/blocks/four-squares-layout.html */
 
-.fun-facts {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+.profile .fun-facts {
+    padding: 0% 21% 0% 21%;
+}
+.fun-facts .col-md-6 {
+    padding: 1.5%;  
+}
+
+.facts-text {
+    position: absolute;
+    padding: 15%;
+    text-decoration: none;
     color: var(--main-white);
-    margin: auto;
+    display: inline-block;
 }
 
-.fun-facts .fa, .fun-facts .far {
-    color: var(--main-white-faded);
-}
-
-
-.grid-1 {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-      grid-row: 1;
-    justify-self: center;
-    padding: 10%; 
+.life {
     background-image: url(/img/Square2.jpg);
-    background-size: cover; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
 
-.grid-1:hover {
-    background-image: url(/img/Square2.jpg);
+.life:hover {
+     background-image: url(/img/Square2.jpg);
     background-color: hsla(0,0%,100%,0.20);
   background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
-.grid-2 {
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 5;
-  -ms-grid-row: 1;
-      grid-row: 1;
-     justify-self: center;
-    padding: 10%;
+
+.enthusiast {
     background-image: url(/img/Square3.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
-
-.grid-2:hover {
+.enthusiast:hover {
     background-image: url(/img/Square3.jpg);
     background-color: hsla(0,0%,100%,0.20);
   background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
-.grid-3 {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 2;
-      grid-row: 2;
-     justify-self: center;
-    padding: 10%; 
+.thinking {
     background-image: url(/img/Square4.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
-
-.grid-3:hover {
-    background-image: url(/img/Square4.jpg);
+.thinking:hover {
+     background-image: url(/img/Square4.jpg);
     background-color: hsla(0,0%,100%,0.20);
   background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
-.grid-4 {
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 5;
-  -ms-grid-row: 2;
-      grid-row: 2;
-     justify-self: center;
-    padding: 10%;
+.superpower {
     background-image: url(/img/Square1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
-
-.grid-4:hover {
+.superpower:hover {
     background-image: url(/img/Square1.jpg);
     background-color: hsla(0,0%,100%,0.20);
   background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
-
-@media screen and (max-width: 55em) {
-  
-    .fun-facts {
-    -ms-grid-rows: (1fr)[4];
-        grid-template-rows: repeat(4, 1fr);
-  }
-    .grid-1 {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 5;
-    -ms-grid-row: 1;
-        grid-row: 1;
-  }
-    .grid-2 {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 5;
-    -ms-grid-row: 2;
-        grid-row: 2;
-  }
-    .grid-3 {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 5;
-    -ms-grid-row: 3;
-        grid-row: 3;
-  }
-    .grid-4 {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 5;
-    -ms-grid-row: 4;
-        grid-row: 4;
-  }
-}
-
-.callout {
-      width: 68%;
-    height: 90%;
-}
-/*End of building block*/
 
 .fun-facts li  {
     list-style-type: circle;
@@ -305,7 +260,6 @@ p{
 .fun-facts ul {
     padding-left: 5%;
 }
-
 /* PROFILE END */
 /* EXPERIENCE START */
 
