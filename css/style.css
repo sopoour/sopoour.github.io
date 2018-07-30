@@ -21,6 +21,7 @@ body {
     --main-orange-faded: rgba(232, 101, 56, 0.6);
     --main-white: #ffffef;
     --main-white-faded: rgba(255, 255, 239, 0.6);
+    --side: 
 }
 body .container {
     padding: 25px;
@@ -575,14 +576,15 @@ p{
 }
 
 .icons {
-    padding-right: 40%;
-    padding-left: 40%;
+    padding-right: 35%;
+    padding-left: 35%;
 }
-.contact .col-md-4 {
+.contact .col-md-4{
     text-align: center;
     display: inline-block;
     font-size: 40px;
 }
+
 
 .contact p {
     margin-top: 5%;
@@ -600,7 +602,7 @@ p{
     font-family: 'Raleway', sans-serif;
     background-color: var(--main-white-faded);
 }
-.contact .far {
+.btn .far {
     color: var(--main-orange-faded);
 }
 
