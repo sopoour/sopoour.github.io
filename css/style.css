@@ -29,7 +29,7 @@ body .container {
     margin: 0 auto;   
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -50,11 +50,12 @@ p{
     border-color: var(--main-orange-faded);
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .white-theme h1 {
     text-align: center;
+    font-size: 35px;
     
 }
 .white-theme .fa, .white-theme .far, .white-theme .fab, .white-theme .fas {
@@ -65,7 +66,7 @@ p{
     padding: 2% 10% 2% 10%;
     font-family: 'Lato', sans-serif;
     color: rgba(232, 101, 56, 0.8);
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -78,6 +79,7 @@ p{
 
 .orange-theme h1 {
     text-align:center;
+    font-size: 35px;
 }
 
 .orange-theme hr {
@@ -97,7 +99,7 @@ p{
 .orange-theme .pre-text {
     font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 239, 0.8);
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -259,15 +261,18 @@ p{
 .fun-facts ul {
     padding-left: 5%;
 }
+
 /* PROFILE END */
 /* EXPERIENCE START */
 
-
+.experience .box-wrap {
+    padding: 0 2% 0 2%;
+}
 .experience .box {
     border: 1px solid;
     border-color: var(--main-white);
     border-radius: 5px;
-    padding: 2% 8% 1% 8%;
+    padding: 2% 8% 1% 6%;
     margin-top: 30px;
 }
 
@@ -276,119 +281,131 @@ p{
     transition: all 0.5s ease-in-out;
 }
 
-.experience .box h3, .experience .box i {
+.experience .box h4, .experience .box i {
     display: inline;
 }
 
-.experience .box h3 {
-    font-size: 2.2vw;
-}
 .experience .box i {
     margin-left: 1%;
-    font-size: 1.3vw;
+    font-size: 15px;
 }
 
 .experience .small {
-    font-size: 1.3vw;
+    font-size: 14px;
     color: var(--main-white-faded);    
 }
 
 .box p {
-    margin-top: 20px;
-    font-size: 1.6vw;
+    margin-top: 10px;
+    font-size: 18px;
     color: var(--main-white-faded);
 }
 
 .experience ul {
     padding-left: 25px;
-    font-size: 1.3vw;
+    font-size: 16px;
     color: var(--main-white-faded); 
 }
 /*EXPERIENCE END*/
 /*EDUCATION START*/
-
-.education h5, .timeline-text {
-    font-size: 1.3vw;
+.wrap {
+    padding: 0 12% 0 12%;
 }
-
-.education .subline {
-    width: 10%;
-    border-width: thick;
-    border-color: var(--main-orange-faded);
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 40px;
-    
-}
-
 .education .small {
-    font-size: 1.1vw;
+    font-size: 12px;
     color: var(--main-orange-faded);    
 }
-
-.schools {
-  white-space: nowrap;
-  overflow-x: hidden;
-}
- 
-.schools ol {
-  font-size: 0;
-  width: 120%;
-  padding:5% 0 1% 0;
-  transition: all 1s;
-}
-
-.schools ol li {
-    position: relative;
-    width: 23%;
-  display: inline-grid;
-    list-style: none;  
-
-}
-
-.schools ol li .schools-text {
-    position: relative;
-    left: 8%;
-}
-
+/* The actual timeline (the vertical ruler) */
 .timeline {
-  white-space: nowrap;
-  overflow-x: hidden;
-}
- 
-.timeline ol {
-  font-size: 0;
-  width: 120%;
-  padding: 0.6% 0 5% 0;
-  transition: all 1s;
-}
- 
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  list-style-type: none;
-  width: 23%;
-  height: 0.2vw;
-  background: var(--main-orange-faded);
-}
-
-.timeline ol li:after {
-  content: '';
-  position: absolute;
-  top: 40%;
-  left: 8%;
-  bottom: 0;
-  width: 0.8vw;
-  height: 0.8vw;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: var(--main-orange);
-}
-
-.timeline ol li .timeline-text {
     position: relative;
-    left: 3%;
-  padding: 5%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: var(--main-orange-faded);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+/* Container around content */
+.timeline-container {
+    position: relative;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -9px;
+    background-color: white;
+    border: 2px solid var(--main-orange) ;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+    text-align: right;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -6px;
+}
+
+.content {
+    padding: 15px 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+.wrap {
+    padding: 0 5% 0 5%;
+}  
+ /* Place the timelime to the left */
+.timeline::after {
+    left: 5%;
+  }
+  
+   /* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    padding-left: 5%;
+      text-align: left;
+    
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 16px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .left::after, .right::after {
+    left: 9px;
+  }
 }
 
 
@@ -419,11 +436,11 @@ p{
 }
 
 .pm {
-    width: 70%;
+    width: 60%;
 }
 
 .pmtool {
-    width: 60%;
+    width: 50%;
 }
 
 .startups {
@@ -461,7 +478,7 @@ p{
     
 }
 
-.text {
+.project-text {
     position: absolute;
     padding: 10%;
     text-align: center;
@@ -569,7 +586,7 @@ p{
     text-align: center;
 }
 
-.contact h3 {
+.contact h4 {
     margin-top: 0;
     margin-bottom: 2%;
     text-align: center;
@@ -587,9 +604,9 @@ p{
 
 
 .contact p {
-    margin-top: 5%;
+    margin-top: 4%;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--main-white);
 }
 
@@ -616,7 +633,7 @@ p{
 }
 
 .footer {
-    margin-top: 5%;
+    margin-top: 4%;
     
 }
 /* CONTACT ENDS*/
@@ -634,7 +651,6 @@ p{
       .navbar.scrolling-navbar.top-nav-collapse {
         padding-top: 0px;
         padding-bottom: 0px;
-    
     } 
 }
 
@@ -642,6 +658,7 @@ p{
     .navbar:not(.top-nav-collapse) {
         background: #e86538 !important;
     }    
+    
 }
 
 @media (max-width: 550px) {
@@ -668,14 +685,3 @@ p{
         height: 1040px; 
     } 
 }      
-
-@media only screen and (min-width: 28em){
-.fun-facts .col {
-    font-size: 0.75em;
-    width: 50%;
-    float: left;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-} 
-}
-/*MAIN ENDS*/
