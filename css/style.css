@@ -40,6 +40,7 @@ p{
 .white-theme {
     padding: 5% 5% 5% 5%;
     color: var(--main-orange);
+    -ms-color: var(--main-orange);
     position: relative;
     background-color: white;
 }
@@ -48,6 +49,7 @@ p{
      width: 10%;
     border-width: thick;
     border-color: var(--main-orange-faded);
+    -ms-color: var(--main-orange-faded);
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -60,12 +62,14 @@ p{
 }
 .white-theme .fa, .white-theme .far, .white-theme .fab, .white-theme .fas {
     color: var(--main-orange-faded);
+    -ms-color: var(--main-orange-faded);
 }
 
 .white-theme .pre-text {
     padding: 2% 10% 2% 10%;
     font-family: 'Lato', sans-serif;
     color: rgba(232, 101, 56, 0.8);
+    -ms-color: rgba(232, 101, 56, 0.8);
     font-size: 16px;
     text-align: center;
 }
@@ -73,8 +77,11 @@ p{
 .orange-theme {
     padding: 5% 15% 5% 15%;
     color: var(--main-white);
+    -ms-color: var(--main-white);
     position: relative;
     background-color: var(--main-orange);
+  -ms-background-color: var(--main-orange);
+  
 }
 
 .orange-theme h1 {
@@ -86,6 +93,7 @@ p{
     width: 10%;
     border-width: thick;
     border-color: var(--main-white-faded);
+    -ms-border-color: var(--main-white-faded);
     text-align: center;
     margin: 0 auto;
     padding-bottom: 40px;
@@ -94,11 +102,13 @@ p{
 
 .orange-theme .fa, .orange-theme .far, .orange-theme .fab, .orange-theme .fas {
     color: var(--main-white-faded);
+    -ms-color: var(--main-white-faded);
 }
 
 .orange-theme .pre-text {
     font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 239, 0.8);
+    -ms-color: rgba(255, 255, 239, 0.8);
     font-size: 16px;
     text-align: center;
 }
