@@ -639,6 +639,55 @@ p{
 /* CONTACT ENDS*/
 
 /*GENERAL ADJUSTMENTS FOR PHONE*/
+@media (max-width: 550px) {
+    .white-theme {
+        padding: 3%;
+    }
+    .white-theme .pre-text {
+        padding: 2%;
+    }
+    .orange-theme {
+        padding: 8%;
+    }
+    .orange-theme .pre-text {
+        padding: 2%;
+    }
+    .intro .site-info {
+    position: fixed;
+    bottom: 2%;
+    right: 5%;
+    left: 5%; 
+    }
+
+    .site-info .fa-angle-down {
+    margin-top: 10%;
+    }
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .intro .site-info h1{
+        font-size:30px;
+    }
+    .intro .site-info h4{
+        font-size:18px;
+    }
+    .intro .site-info {
+    position: absolute;
+        bottom: 5%;
+    }
+    
+    .experience .box-wrap {
+    padding: 0;
+    }
+    .profile .fun-facts {
+    padding: 0% 5% 0% 5%;
+    }
+    .projects-listed .col-md-6 {
+    padding: 2%;
+}
+}
+
 @media (min-width: 600px) {
     .navbar.scrolling-navbar {
       -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -661,22 +710,7 @@ p{
     
 }
 
-@media (max-width: 550px) {
-    .margins {
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    .intro .site-info h1{
-        font-size:30px;
-    }
-    .intro .site-info h4{
-        font-size:18px;
-    }
-    .intro .site-info {
-    position: absolute;
-        bottom: 7%;
-    }
-}
+
 @media (max-width: 740px) {
     .full-height,
     .full-height body,
@@ -685,3 +719,4 @@ p{
         height: 1040px; 
     } 
 }      
+  
