@@ -639,7 +639,7 @@ p{
 /* CONTACT ENDS*/
 
 /*GENERAL ADJUSTMENTS FOR PHONE*/
-@media (max-width: 550px) {
+@media (max-width: 780px) {
     .white-theme {
         padding: 3%;
     }
