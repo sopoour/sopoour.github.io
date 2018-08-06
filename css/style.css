@@ -662,6 +662,19 @@ p{
     .site-info .fa-angle-down {
     margin-top: 10%;
     }
+    
+    .experience .box-wrap {
+    padding: 0;
+    }
+    .profile .fun-facts {
+    padding: 0% 5% 0% 5%;
+    }
+    .projects-listed .col-md-6 {
+    padding: 2%;
+    }
+}
+
+@media (max-width: 550px) {
     .margins {
         margin-right: 1rem;
         margin-left: 1rem;
@@ -676,16 +689,6 @@ p{
     position: absolute;
         bottom: 5%;
     }
-    
-    .experience .box-wrap {
-    padding: 0;
-    }
-    .profile .fun-facts {
-    padding: 0% 5% 0% 5%;
-    }
-    .projects-listed .col-md-6 {
-    padding: 2%;
-}
 }
 
 @media (min-width: 600px) {
