@@ -672,6 +672,9 @@ p{
     .projects-listed .col-md-6 {
     padding: 2%;
     }
+  .skills {
+    color: transparent;
+    }
 }
 
 @media (max-width: 550px) {
