@@ -174,9 +174,11 @@ p{
 .facts-text {
     position: absolute;
     padding: 15%;
-    text-decoration: none;
     color: var(--main-white);
     display: inline-block;
+}
+.facts-text .far, .facts-text .fa {
+    color: var(--main-white-faded);
 }
 
 .life {
