@@ -425,14 +425,14 @@ p{
   text-align: right;
   padding-right: 1%;
   line-height: 15px;
-  color: var(--main-white);
-    font-size: 0.8vw;
+  font-size: 0.8vw;
+  color: transparent;
+  background-color: var(--main-white);
 }
 
-.skills {
+.skills:hover{
     color: #e86538;
     transition: all 1s;
-    background-color: var(--main-white);
 }
 
 .pm {
