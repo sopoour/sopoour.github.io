@@ -106,7 +106,7 @@ p{
 
 /* HEADER START*/
 .intro {
-    background: url(/img/Geo_pattern_with_me.jpg) no-repeat center top fixed;
+    background: url(../img/Geo_pattern_with_me.jpg) no-repeat center top fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -181,10 +181,8 @@ p{
 }
 
 .life {
-    background-image: url(/img/Square2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/Square2.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -193,36 +191,30 @@ p{
 }
 
 .life:hover {
-     background-image: url(/img/Square2.jpg);
-    background-color: hsla(0,0%,100%,0.20);
-  background-blend-mode: overlay;
+    background: hsla(0, 0%, 100%, 0.20) url(../img/Square2.jpg);
+    background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
 
 .enthusiast {
-    background-image: url(/img/Square3.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   width: 100%;
+    background: url(../img/Square3.jpg) no-repeat center;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
 }
 .enthusiast:hover {
-    background-image: url(/img/Square3.jpg);
-    background-color: hsla(0,0%,100%,0.20);
-  background-blend-mode: overlay;
+    background: hsla(0, 0%, 100%, 0.20) url(../img/Square3.jpg);
+    background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
 .thinking {
-    background-image: url(/img/Square4.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/Square4.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -230,17 +222,14 @@ p{
     cursor: pointer;
 }
 .thinking:hover {
-     background-image: url(/img/Square4.jpg);
-    background-color: hsla(0,0%,100%,0.20);
-  background-blend-mode: overlay;
+    background: hsla(0, 0%, 100%, 0.20) url(../img/Square4.jpg);
+    background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
 .superpower {
-    background-image: url(/img/Square1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/Square1.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -248,9 +237,8 @@ p{
     cursor: pointer;
 }
 .superpower:hover {
-    background-image: url(/img/Square1.jpg);
-    background-color: hsla(0,0%,100%,0.20);
-  background-blend-mode: overlay;
+    background: hsla(0, 0%, 100%, 0.20) url(../img/Square1.jpg);
+    background-blend-mode: overlay;
     transition: all 0.5s ease-in-out;
 }
 
