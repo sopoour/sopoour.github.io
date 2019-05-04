@@ -194,12 +194,6 @@ p{
     height: 100%;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
-}
-.enthusiast:hover {
-    background: hsla(0, 0%, 100%, 0.20) url(../img/Square3.jpg);
-    background-blend-mode: overlay;
-    transition: all 0.5s ease-in-out;
 }
 
 .thinking {
@@ -209,12 +203,6 @@ p{
     height: 100%;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
-}
-.thinking:hover {
-    background: hsla(0, 0%, 100%, 0.20) url(../img/Square4.jpg);
-    background-blend-mode: overlay;
-    transition: all 0.5s ease-in-out;
 }
 
 .superpower {
@@ -224,17 +212,10 @@ p{
     height: 100%;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
-}
-.superpower:hover {
-    background: hsla(0, 0%, 100%, 0.20) url(../img/Square1.jpg);
-    background-blend-mode: overlay;
-    transition: all 0.5s ease-in-out;
 }
 
 .fun-facts li  {
     list-style-type: circle;
-    
 }
 
 .fun-facts ul {
