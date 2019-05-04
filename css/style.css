@@ -164,14 +164,12 @@ p{
 /* PROFILE START */
 
 .profile .fun-facts {
-    padding: 0% 21% 0% 21%;
+    padding: 0 21% 0 21%;
 }
 .fun-facts .col-md-6 {
-    padding: 1.5%;  
+    padding: 1.5%;
 }
-
 .facts-text {
-    position: absolute;
     padding: 15%;
     color: var(--main-white);
     display: inline-block;
@@ -187,15 +185,7 @@ p{
     height: 100%;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
 }
-
-.life:hover {
-    background: hsla(0, 0%, 100%, 0.20) url(../img/Square2.jpg);
-    background-blend-mode: overlay;
-    transition: all 0.5s ease-in-out;
-}
-
 
 .enthusiast {
     background-size: cover;
