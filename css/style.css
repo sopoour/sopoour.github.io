@@ -390,32 +390,27 @@ p{
   background-color: var(--main-white);
 }
 
-.skills:hover{
-    color: #e86538;
-    transition: all 1s;
-}
-
 .pm {
     width: 60%;
 }
 
 .python {
-    width: 50%;
+    width: 35%;
 }
 
-.startups {
-    width: 85%;
+.QA {
+    width: 70%;
 }
 .htmlcss {
-    width: 40%;
+    width: 45%;
 }
 
-.teamplayer {
-    width: 95%;
+.research {
+    width: 60%;
 }
 
-.problemsolving {
-    width: 90%;
+.rpi {
+    width: 10%;
 }
 
 .printing {
@@ -423,11 +418,7 @@ p{
 }
 
 .modelling {
-    width: 10%;
-}
-
-.learning {
-    width: 100%;
+    width: 25%;
 }
 
 /*SKILLSET ENDS*/
@@ -435,7 +426,6 @@ p{
 
 .projects-listed .col-md-6 {
     padding: 1%;
-    
 }
 
 .project-text {
@@ -447,11 +437,11 @@ p{
     display: inline-block;
 }
 
-.sbs {
+.coffee {
     background-image: linear-gradient(
-      rgba(232, 101, 56, 0.9),
-      rgba(255, 255, 255, 0.7)
-    ), url(/img/sbs.PNG);
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/coffee.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -462,18 +452,17 @@ p{
     cursor: pointer;
 }
 
-.sbs:hover {
-    background-image: url(/img/sbs.PNG);
+.coffee:hover {
+    background-image: url(../img/coffee.PNG);
     color: transparent;
-    transition: all 0.5s;
+    transition: all 0.25s ease-in-out;
 }
-
 
 .tribute {
     background-image: linear-gradient(
-      rgba(232, 101, 56, 0.9),
-      rgba(255, 255, 255, 0.7)
-    ), url(/img/Tribute-Page.PNG);
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/Tribute-Page.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -484,16 +473,16 @@ p{
     cursor: pointer;
 }
 .tribute:hover {
-    background-image: url(/img/Tribute-Page.PNG);
+    background-image: url(../img/Tribute-Page.PNG);
     color: transparent;
-    transition: all 0.5s;
+    transition: all 0.25s ease-in-out;
 }
 
 .personal {
     background-image: linear-gradient(
-      rgba(232, 101, 56, 0.95),
-      rgba(255, 255, 255, 0.7)
-    ), url(/img/website.PNG);
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/website.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -504,16 +493,16 @@ p{
     cursor: pointer;
 }
 .personal:hover {
-    background-image: url(/img/website.PNG);
+    background-image: url(../img/website.PNG);
     color: transparent;
-    transition: all 0.5s;
+    transition: all 0.25s ease-in-out;
 }
 
-.future {
+.ec-project {
     background-image: linear-gradient(
-      rgba(232, 101, 56, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ), url(/img/future-me.JPG);
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/ec-framework.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -523,10 +512,11 @@ p{
     position: relative;
     cursor: pointer;
 }
-.future:hover {
-    background-image: url(/img/future-me.JPG);
+
+.ec-project:hover {
+    background-image: url(../img/ec-framework.png);
     color: transparent;
-    transition: all 0.5s;
+    transition: all 0.25s ease-in-out;
 }
 /*PROJECTS ENDS*/
 /*CONTACT STARTS*/
