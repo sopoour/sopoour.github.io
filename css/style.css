@@ -398,11 +398,18 @@ p{
     width: 35%;
 }
 
+.mobileRobo {
+    width: 15%;
+}
+
+.ML {
+    width: 18%
+}
 .QA {
     width: 70%;
 }
 .htmlcss {
-    width: 45%;
+    width: 35%;
 }
 
 .research {
@@ -410,15 +417,15 @@ p{
 }
 
 .rpi {
-    width: 10%;
+    width: 7%;
 }
 
 .printing {
-    width: 45%;
+    width: 40%;
 }
 
 .modelling {
-    width: 25%;
+    width: 10%;
 }
 
 /*SKILLSET ENDS*/
