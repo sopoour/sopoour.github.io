@@ -413,11 +413,15 @@ p{
 }
 
 .research {
-    width: 60%;
+    width: 55%;
 }
 
 .rpi {
     width: 7%;
+}
+
+.iot {
+    width: 25%;
 }
 
 .printing {
