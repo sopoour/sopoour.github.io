@@ -395,18 +395,26 @@ p{
 }
 
 .python {
-    width: 35%;
+    width: 30%;
+}
+
+.node {
+    width: 10%;
+}
+
+.hf {
+    width: 20%;
 }
 
 .mobileRobo {
-    width: 15%;
+    width: 10%;
 }
 
 .ML {
-    width: 18%
+    width: 20%
 }
 .QA {
-    width: 50%;
+    width: 35%;
 }
 .htmlcss {
     width: 35%;
@@ -417,11 +425,11 @@ p{
 }
 
 .rpi {
-    width: 7%;
+    width: 20%;
 }
 
-.iot {
-    width: 25%;
+.cloud {
+    width: 12%;
 }
 
 .printing {
