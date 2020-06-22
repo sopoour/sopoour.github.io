@@ -563,11 +563,11 @@ p{
     transition: all 0.25s ease-in-out;
 }
 
-.bdm {
+.BC-carsharing {
     background-image: linear-gradient(
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
-    ), url(../img/bdm.png);
+    ), url(../img/bc-carsharing.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -578,8 +578,8 @@ p{
     cursor: pointer;
 }
 
-.bdm:hover {
-    background-image: url(../img/bdm.png);
+.BC-carsharing:hover {
+    background-image: url(../img/bc-carsharing.png);
     color: transparent;
     transition: all 0.25s ease-in-out;
 }
@@ -610,8 +610,8 @@ p{
 }
 
 .icons {
-    padding-right: 35%;
-    padding-left: 35%;
+    padding-right: 40%;
+    padding-left: 40%;
 }
 .contact .col-md-4{
     text-align: center;
