@@ -395,19 +395,23 @@ p{
 }
 
 .python {
+    width: 35%;
+}
+
+.data {
     width: 30%;
 }
 
-.node {
-    width: 10%;
-}
-
-.hf {
+.js {
     width: 20%;
 }
 
+.HF {
+    width: 25%;
+}
+
 .mobileRobo {
-    width: 10%;
+    width: 20%;
 }
 
 .ML {
@@ -417,7 +421,7 @@ p{
     width: 35%;
 }
 .htmlcss {
-    width: 35%;
+    width: 25%;
 }
 
 .research {
@@ -425,7 +429,7 @@ p{
 }
 
 .rpi {
-    width: 20%;
+    width: 30%;
 }
 
 .cloud {
