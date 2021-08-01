@@ -130,6 +130,7 @@ p{
 
 .site-info .tag-line{
     margin-top: 1%;
+    padding: 0 10% 0 10%;
 }
 
 .site-info .fa-angle-down {
@@ -164,10 +165,10 @@ p{
 /* PROFILE START */
 
 .profile .fun-facts {
-    padding: 0 21% 0 21%;
+    padding: 0 22% 0 22%;
 }
 .fun-facts .col-md-6 {
-    padding: 1.5%;
+    padding: 2%;
 }
 .facts-text {
     padding: 15%;
@@ -176,6 +177,7 @@ p{
 }
 .facts-text .far, .facts-text .fa {
     color: var(--main-white-faded);
+    padding-left: 0.5em;
 }
 
 .life {
@@ -219,20 +221,20 @@ p{
 }
 
 .fun-facts ul {
-    padding-left: 5%;
+    padding-left: 2em;
 }
 
 /* PROFILE END */
 /* EXPERIENCE START */
 
 .experience .box-wrap {
-    padding: 0 2% 0 2%;
+    padding: 0 1em 0 1em;
 }
 .experience .box {
     border: 1px solid;
     border-color: var(--main-white);
     border-radius: 5px;
-    padding: 2% 8% 1% 6%;
+    padding: 1.5em;
     margin-top: 30px;
 }
 
@@ -243,10 +245,12 @@ p{
 
 .experience .box h4, .experience .box i {
     display: inline;
+    margin-bottom: 1em;
 }
 
 .experience .box i {
-    margin-left: 1%;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
     font-size: 15px;
 }
 
@@ -256,7 +260,7 @@ p{
 }
 
 .box p {
-    margin-top: 10px;
+    margin-top: 1em;
     font-size: 18px;
     color: var(--main-white-faded);
 }
@@ -266,6 +270,7 @@ p{
     font-size: 16px;
     color: var(--main-white-faded); 
 }
+
 /*EXPERIENCE END*/
 /*EDUCATION START*/
 .wrap {
@@ -399,37 +404,41 @@ p{
 }
 
 .data {
-    width: 30%;
-}
-
-.js {
-    width: 20%;
-}
-
-.HF {
     width: 25%;
 }
 
-.mobileRobo {
+.js {
+    width: 45%;
+}
+
+.HF {
     width: 20%;
+}
+
+.mobileRobo {
+    width: 25%;
 }
 
 .ML {
     width: 20%
 }
 .QA {
-    width: 35%;
+    width: 30%;
 }
 .htmlcss {
-    width: 25%;
-}
-
-.research {
     width: 55%;
 }
 
+.react {
+    width: 20%;
+}
+
+.research {
+    width: 40%;
+}
+
 .rpi {
-    width: 30%;
+    width: 40%;
 }
 
 .cloud {
@@ -462,13 +471,6 @@ p{
     text-decoration: none;
     color: var(--main-white);
     display: inline-block;
-}
-
-.coffee {
-    background-image: linear-gradient(
-            rgba(232, 101, 60, 1),
-            rgba(232, 101, 60, 0.5)
-    ), url(../img/coffee.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -479,10 +481,43 @@ p{
     cursor: pointer;
 }
 
-.coffee:hover {
-    background-image: url(../img/coffee.png);
+.project-text:hover {
     color: transparent;
     transition: all 0.25s ease-in-out;
+}
+
+.pi_robot {
+    background-image: linear-gradient(
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/pi_robot.png); 
+}
+
+.pi_robot:hover {
+    background-image: url(../img/pi_robot.png);
+
+}
+
+.tvshow_search {
+    background-image: linear-gradient(
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/tvshow_search.png); 
+}
+
+.tvshow_search:hover {
+    background-image: url(../img/tvshow_search.png);
+}
+
+.coffee {
+    background-image: linear-gradient(
+            rgba(232, 101, 60, 1),
+            rgba(232, 101, 60, 0.5)
+    ), url(../img/coffee.png); 
+}
+
+.coffee:hover {
+    background-image: url(../img/coffee.png);
 }
 
 .tribute {
@@ -490,19 +525,9 @@ p{
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
     ), url(../img/Tribute-Page.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
 }
 .tribute:hover {
     background-image: url(../img/Tribute-Page.PNG);
-    color: transparent;
-    transition: all 0.25s ease-in-out;
 }
 
 .personal {
@@ -510,19 +535,9 @@ p{
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
     ), url(../img/website.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
 }
 .personal:hover {
     background-image: url(../img/website.PNG);
-    color: transparent;
-    transition: all 0.25s ease-in-out;
 }
 
 .ec-project {
@@ -530,20 +545,11 @@ p{
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
     ), url(../img/ec-framework.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
 }
+
 
 .ec-project:hover {
     background-image: url(../img/ec-framework.png);
-    color: transparent;
-    transition: all 0.25s ease-in-out;
 }
 
 .robot-rugby {
@@ -551,20 +557,10 @@ p{
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
     ), url(../img/robot-rugby.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
 }
 
 .robot-rugby:hover {
     background-image: url(../img/robot-rugby.png);
-    color: transparent;
-    transition: all 0.25s ease-in-out;
 }
 
 .BC-carsharing {
@@ -572,20 +568,10 @@ p{
             rgba(232, 101, 60, 1),
             rgba(232, 101, 60, 0.5)
     ), url(../img/bc-carsharing.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
 }
 
 .BC-carsharing:hover {
     background-image: url(../img/bc-carsharing.png);
-    color: transparent;
-    transition: all 0.25s ease-in-out;
 }
 
 
