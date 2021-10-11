@@ -523,6 +523,30 @@ p {
   background-image: url(../img/tvshow_search.png);
 }
 
+.expense-tracking {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/expense-tracking.png);
+}
+
+.expense-tracking:hover {
+  background-image: url(../img/expense-tracking.png);
+}
+
+.food-ordering-app {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/food-ordering-app.png);
+}
+
+.food-ordering-app:hover {
+  background-image: url(../img/food-ordering-app.png);
+}
+
 .coffee {
   background-image: linear-gradient(
       rgba(232, 101, 60, 1),
