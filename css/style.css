@@ -547,6 +547,18 @@ p {
   background-image: url(../img/food-ordering-app.png);
 }
 
+.to-do-app {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/to-do-app.png);
+}
+
+.to-do-app:hover {
+  background-image: url(../img/to-do-app.png);
+}
+
 .coffee {
   background-image: linear-gradient(
       rgba(232, 101, 60, 1),
