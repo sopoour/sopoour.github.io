@@ -73,7 +73,7 @@ p {
   padding: 2% 10% 2% 10%;
   font-family: "Lato", sans-serif;
   color: rgba(232, 101, 56, 0.8);
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ p {
 .orange-theme .pre-text {
   font-family: "Lato", sans-serif;
   color: rgba(255, 255, 239, 0.8);
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -421,7 +421,15 @@ p {
 }
 
 .js {
-  width: 45%;
+  width: 70%;
+}
+
+.ts {
+  width: 55%;
+}
+
+.graphql {
+  width: 40%;
 }
 
 .HF {
@@ -436,14 +444,11 @@ p {
   width: 20%;
 }
 .QA {
-  width: 30%;
-}
-.htmlcss {
-  width: 55%;
+  width: 50%;
 }
 
 .react {
-  width: 20%;
+  width: 60%;
 }
 
 .research {
@@ -467,7 +472,7 @@ p {
 }
 
 .git {
-  width: 45%;
+  width: 75%;
 }
 
 /*SKILLSET ENDS*/
@@ -534,6 +539,20 @@ p {
 .expense-tracking:hover {
   background-image: url(../img/expense-tracking.png);
 }
+
+
+.eolt {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/eolt.png);
+}
+
+.eolt:hover {
+  background-image: url(../img/eolt.png);
+}
+
 
 .food-ordering-app {
   background-image: linear-gradient(
