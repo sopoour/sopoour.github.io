@@ -409,7 +409,7 @@ p {
 }
 
 .pm {
-  width: 60%;
+  width: 70%;
 }
 
 .python {
@@ -421,11 +421,11 @@ p {
 }
 
 .js {
-  width: 70%;
+  width: 80%;
 }
 
 .ts {
-  width: 55%;
+  width: 75%;
 }
 
 .graphql {
@@ -448,7 +448,7 @@ p {
 }
 
 .react {
-  width: 60%;
+  width: 80%;
 }
 
 .research {
@@ -471,9 +471,7 @@ p {
   width: 10%;
 }
 
-.git {
-  width: 75%;
-}
+.
 
 /*SKILLSET ENDS*/
 /*PROJECTS STARTS*/
