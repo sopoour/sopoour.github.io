@@ -118,7 +118,7 @@ p {
 .intro {
   background: url(../img/Geo_pattern_with_me_v1.jpg) no-repeat center top fixed;
   background-size: cover;
-  -webkit-background-size: cover;
+  -webkit-background-size: cover !important;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100%;
@@ -516,18 +516,6 @@ p {
   background-image: url(../img/pi_robot.png);
 }
 
-.tvshow_search {
-  background-image: linear-gradient(
-      rgba(232, 101, 60, 1),
-      rgba(232, 101, 60, 0.5)
-    ),
-    url(../img/tvshow_search.png);
-}
-
-.tvshow_search:hover {
-  background-image: url(../img/tvshow_search.png);
-}
-
 .expense-tracking {
   background-image: linear-gradient(
       rgba(232, 101, 60, 1),
@@ -540,6 +528,41 @@ p {
   background-image: url(../img/expense-tracking.png);
 }
 
+.queer-the-world {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/queer-the-world.png);
+}
+
+.queer-the-world:hover {
+  background-image: url(../img/queer-the-world.png);
+}
+
+.vision {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/vision.png);
+}
+
+.vision:hover {
+  background-image: url(../img/vision.png);
+}
+
+.mini-org-chart {
+  background-image: linear-gradient(
+      rgba(232, 101, 60, 1),
+      rgba(232, 101, 60, 0.5)
+    ),
+    url(../img/mini-org-chart.png);
+}
+
+.mini-org-chart:hover {
+  background-image: url(../img/mini-org-chart.png);
+}
 
 .eolt {
   background-image: linear-gradient(
@@ -554,18 +577,6 @@ p {
 }
 
 
-.food-ordering-app {
-  background-image: linear-gradient(
-      rgba(232, 101, 60, 1),
-      rgba(232, 101, 60, 0.5)
-    ),
-    url(../img/food-ordering-app.png);
-}
-
-.food-ordering-app:hover {
-  background-image: url(../img/food-ordering-app.png);
-}
-
 .to-do-app {
   background-image: linear-gradient(
       rgba(232, 101, 60, 1),
@@ -576,40 +587,6 @@ p {
 
 .to-do-app:hover {
   background-image: url(../img/to-do-app.png);
-}
-
-.coffee {
-  background-image: linear-gradient(
-      rgba(232, 101, 60, 1),
-      rgba(232, 101, 60, 0.5)
-    ),
-    url(../img/coffee.png);
-}
-
-.coffee:hover {
-  background-image: url(../img/coffee.png);
-}
-
-.tribute {
-  background-image: linear-gradient(
-      rgba(232, 101, 60, 1),
-      rgba(232, 101, 60, 0.5)
-    ),
-    url(../img/Tribute-Page.PNG);
-}
-.tribute:hover {
-  background-image: url(../img/Tribute-Page.PNG);
-}
-
-.personal {
-  background-image: linear-gradient(
-      rgba(232, 101, 60, 1),
-      rgba(232, 101, 60, 0.5)
-    ),
-    url(../img/website.PNG);
-}
-.personal:hover {
-  background-image: url(../img/website.PNG);
 }
 
 .ec-project {
