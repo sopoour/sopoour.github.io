@@ -4,4 +4,4 @@ I've started this website as one of my first coding projects. It's regularly upd
 
 Besides coding this website, I also designed all of it myself. It's mainly coded in HTML & CSS as well as some Javascript for UI animations.
 
-You can find the personal website here: https://sophiaauer.me/
+You can find this iteration of my old personal website here: https://sopoour.github.io/
